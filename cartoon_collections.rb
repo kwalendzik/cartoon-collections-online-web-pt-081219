@@ -12,9 +12,8 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? { |call| call.length > 4 }
 end
 
-def find_the_cheese(potentially_cheesy_items)
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  potentially_cheesy_items.detect{|i| i.odd?}
+  array.detect{|array| i.odd?}
   end
-else nil
 end
