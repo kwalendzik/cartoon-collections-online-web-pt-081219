@@ -14,7 +14,7 @@ end
 
 def find_the_cheese(cheddar_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  .detect{|i| i.odd?}
+  potentially_cheesy.detect{|i| i.odd?}
   end
 else nil
 end
